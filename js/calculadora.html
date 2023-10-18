@@ -3,31 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="calcul.js"></script>
+    
     <link rel="stylesheet" href="calcul.css">
     <title>Calculadora</title>
 </head>
 <body>
     <div id="caja">
-        <input type="text" id="resultado"> </input> 
         <div id="resultado"></div>
         <div id="botones">
             <button id="1" onclick="dato(1)">1</button>
-            <button id="2" onclick=">2</button>
-            <button id="3">3</button>
-            <button id="4">4</button>
-            <button id="5">5</button>
-            <button id="6">6</button>
-            <button id="7">7</button>
-            <button id="8">8</button>
-            <button id="9">9</button>
-            <button id="0">0</button>
-            <button id="+">+</button>
-            <button id="-">-</button>
-            <button id="/">/</button>
-            <button id="c">c</button>
-            <button id="=">=</button>
+            <button id="2" onclick="dato(2)"> 2</button>
+            <button id="3" onclick="dato(3)">3</button>
+            <button id="4" onclick="dato(4)">4</button>
+            <button id="5" onclick="dato(5)">5</button>
+            <button id="6" onclick="dato(6)">6</button>
+            <button id="7" onclick="dato(7)">7</button>
+            <button id="8" onclick="dato(8)">8</button>
+            <button id="9" onclick="dato(9)">9</button>
+            <button id="0" onclick="dato(0)">0</button>
+            <button id="+" onclick="sumarNum()">+</button>
+            <button id="-" onclick="restaNum()">-</button>
+            <button id="-" onclick="multiNum()">*</button>
+            <button id="/" onclick="divNum()">/</button>
+            <button id="c" onclick="clearBoton()">c</button>
+            <button id="=" onclick="igualA()">=</button>
         </div>
     </div>
 </body>
+<script src="calcul.js"></script>
 </html>

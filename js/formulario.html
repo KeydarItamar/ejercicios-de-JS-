@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="formulario.js"></script>
+    <title>Formulario</title>
+</head>
+
+<style>
+    .caja{
+        padding: 10px;
+        height: 250px;
+        width: 200px;
+        float: left;
+        display: flex;
+    }
+    .resultado{
+        border: 3px dashed black;
+    }
+</style>
+<body>
+    <div class="caja">
+        <form action="" method="post" id="formulario" onsubmit="return false;">
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre"><br>
+
+            <label for="nombre">Apellidos:</label>
+            <input type="text" name="apellidos" id="apellidos"><br>
+
+            <label for="Edad">Edad:</label>
+            <input type="text" name="edad" id="edad"><br>
+            
+            <input type="submit" value="enviar" id="submit" style="margin-top: 10px;">
+        </form>
+    </div>
+    <div class="caja resultado">
+        <h3>Datos del usuario</h3>
+
+    </div>
+
+    
+</body>
+</html>
