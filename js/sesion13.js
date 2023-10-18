@@ -27,3 +27,16 @@ function letrasAB(){
     console.log("Hay " + contA + " letras a en el texto.")
     console.log("Hay " + contB + " letras b en el texto.")
 }
+
+function cadenasLen(){
+    
+    let cade1 = prompt("introduce una cadena"); 
+    let cade2 = prompt("introduce una cadena"); 
+
+    if (cade1.length === cade2.length){
+        console.log("Tiene la misma longitud");
+    }else{
+        console.log("no tienen la misma longitud");
+    }
+
+}
