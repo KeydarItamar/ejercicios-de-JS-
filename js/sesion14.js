@@ -77,3 +77,18 @@ function datosTexto(){
         contadorLeng++;
     }
 }
+    function nitBona(){
+        let tiempo = prompt("Introduce la hora");
+
+        let listTemps= tiempo.split(":");
+
+        let mins = ((23 - parseInt(listTemps[0]))*60) + parseInt(listTemps[1]);
+
+        tiempo = 1440 - mins;
+        if (tiempo > 0){
+        document.write("EL tiempo que falta para nitbona es: " + tiempo + " minuts")
+        }else{
+            document.write("Feliz nit bona!"+ "<br/>");
+        }
+    }
+
