@@ -1,0 +1,35 @@
+html {
+    background-image: url('imagenContador.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+
+.cajaContador{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 5%;
+}
+.botones{
+    display: flex;
+    align-content: center;
+    padding: 30px;
+}
+
+h1{
+    color: white;
+}
+.btn{
+    border: 1px solid black;
+    margin: 4px;
+    border-radius: 5px;
+    
+}
+
+#value{
+    font-size: 50px;
+}
