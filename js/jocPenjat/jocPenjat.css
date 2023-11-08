@@ -1,0 +1,12 @@
+body{
+    display: flex;
+}
+.cajaIncio{
+justify-content: center;
+
+
+}
+
+.resultado{
+    font-size: 30px;
+}
