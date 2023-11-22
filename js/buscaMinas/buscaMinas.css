@@ -1,0 +1,32 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+html{
+    background-image: url('images/fondo1.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100%; 
+    margin: 0;
+}
+
+#inicioPartida{
+    background-color: rgb(0, 255, 26);
+    margin-bottom: 30px;
+    border-radius: 20px;
+    height: 30px;
+
+}
+h1{
+    margin-top: 60px;
+}
+
+table {
+    background-color: aliceblue;
+    border: 1px dashed black;
+  }
